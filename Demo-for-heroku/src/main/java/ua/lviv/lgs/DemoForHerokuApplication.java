@@ -20,6 +20,7 @@ public class DemoForHerokuApplication {
 	
 	@Bean
 	public Cloudinary cloudinary() {
+		System.out.println("Hello from cloudinary----------------------------------------");
 		return new Cloudinary(cloudinaryUrl);
 	}
 }
