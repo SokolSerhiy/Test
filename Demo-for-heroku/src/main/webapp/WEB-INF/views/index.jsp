@@ -16,7 +16,7 @@
 	<div>
 		<ul>
 			<c:forEach items="${persons}" var="person">
-				<li>${person.name} ${person.age}</li>
+				<li>${person.name} ${person.age} years</li>
 			</c:forEach>
 		</ul>
 	</div>
