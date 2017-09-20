@@ -17,7 +17,6 @@ public class PersonController {
 
 	@GetMapping("/")
 	public String index(Model model) {
-		model.addAttribute("person", new Person());
 		model.addAttribute("persons", repository.findAll());
 		return "index";
 	}
